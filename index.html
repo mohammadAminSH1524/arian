@@ -10,8 +10,12 @@
   </head>
   <body dir="rtl" class="font-vasir">
     <header>
-      <div class="lg:hidden max-lg:h-screen">
-        <img src="assets/landing.JPG" alt="landing_image" />
+      <div class="flex justify-center md:hidden max-md:h-screen">
+        <img
+          class="max-md:max-h-[750px]"
+          src="assets/landing.JPG"
+          alt="landing_image"
+        />
       </div>
     </header>
     <main class="mt-5 px-5">
@@ -44,8 +48,8 @@
 
       <!-- عکس محصول -->
 
-      <div class="mt-8 mb-8">
-        <img src="assets/product.JPG" alt="product" />
+      <div class="flex justify-center mt-8 mb-8">
+        <img class="max-h-[700px] " src="assets/product.JPG" alt="product" />
       </div>
 
       <!-- نحوه مصرف -->
@@ -73,7 +77,7 @@
 
       <!-- مراحل نحوه مصرف -->
 
-      <div class="grid grid-cols-2 gap-x-2 gap-y-6 mt-8">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-6 mt-8">
         <!-- 1 -->
         <div>
           <img src="assets/photo_2024-05-28_15-12-43asd.jpg" alt="e" />
@@ -139,7 +143,7 @@
       <!-- مواد تشکیل دهنده  -->
 
       <div class="relative py-3 mb-3">
-        <h3 class="text-lg">مواد تشکیل دهنده قرص ناف</h3>
+        <h3 class="text-lg sm:text-[20px]">مواد تشکیل دهنده قرص ناف</h3>
         <div
           class="absolute bottom-[5px] right-[-3px] rounded-t-lg min-h-1 w-[215px] bg-[#ef4056]"
         ></div>
@@ -148,7 +152,7 @@
       <!-- ? 1 ginger -->
       <div class="grid grid-cols-2 gap-x-2 mb-3">
         <!-- description -->
-        <div class="">
+        <div class="flex flex-col justify-center">
           <div class="relative py-3 mb-3">
             <h4 class="text-lg">زنجبیل</h4>
             <div
@@ -165,7 +169,7 @@
         </div>
         <!-- image -->
         <div class="">
-          <img class="" src="./assets/ginger.jpg" alt="ginger" />
+          <img class="rounded-xl" src="./assets/ginger.jpg" alt="ginger" />
         </div>
       </div>
 
@@ -173,10 +177,10 @@
       <div class="grid grid-cols-2 gap-x-4 mb-3">
         <!-- image -->
         <div class="">
-          <img class="" src="./assets/mugwort.jpg" alt="ginger" />
+          <img class="rounded-xl" src="./assets/mugwort.jpg" alt="mugwort" />
         </div>
         <!-- description -->
-        <div class="">
+        <div class="flex flex-col justify-center">
           <div class="relative py-3 mb-3">
             <h4 class="text-lg">ماگورت</h4>
             <div
@@ -195,7 +199,7 @@
       <!-- ? 3 honey -->
       <div class="grid grid-cols-2 gap-x-4 mb-3">
         <!-- description -->
-        <div class="">
+        <div class="flex flex-col justify-center">
           <div class="relative py-3 mb-3">
             <h4 class="text-lg">عسل</h4>
             <div
@@ -210,7 +214,7 @@
         </div>
         <!-- image -->
         <div class="">
-          <img class="" src="./assets/honey.jpg" alt="ginger" />
+          <img class="rounded-xl" src="./assets/honey.jpg" alt="ginger" />
         </div>
       </div>
 
@@ -218,10 +222,14 @@
       <div class="grid grid-cols-2 gap-x-4 mb-3">
         <!-- image -->
         <div class="">
-          <img class="" src="./assets/sichuanPepper.jpg" alt="ginger" />
+          <img
+            class="rounded-xl"
+            src="./assets/sichuanPepper.jpg"
+            alt="sichuan_pepper"
+          />
         </div>
         <!-- description -->
-        <div class="">
+        <div class="flex flex-col justify-center">
           <div class="relative py-3 mb-3">
             <h4 class="text-lg">فلفل سیچوآن</h4>
             <div
@@ -238,7 +246,7 @@
       <!-- ? 5 longon -->
       <div class="grid grid-cols-2 gap-x-2 mb-3">
         <!-- description -->
-        <div class="">
+        <div class="flex flex-col justify-center">
           <div class="relative py-3 mb-3">
             <h4 class="text-lg">لونگان</h4>
             <div
@@ -253,7 +261,7 @@
         </div>
         <!-- image -->
         <div class="">
-          <img class="" src="./assets/longon.jfif" alt="ginger" />
+          <img class="rounded-xl" src="./assets/longon.jpg" alt="longon" />
         </div>
       </div>
 
@@ -294,7 +302,7 @@
       </p>
     </main>
     <footer
-      class="flex justify-between items-center bg-[#f1f8ed] px-5 py-4 mt-8"
+      class="flex justify-between lg:justify-around items-center bg-[#f1f8ed] px-5 md:px-16 py-4 mt-8"
     >
       <a
         class="block min-w-[130px] px-4 py-2 text-white text-center bg-[#61b537] rounded-full"
