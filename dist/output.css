@@ -842,14 +842,6 @@ video {
   display: none;
 }
 
-.max-h-\[\] {
-  max-height: ;
-}
-
-.max-h-\[750px\] {
-  max-height: 750px;
-}
-
 .max-h-\[700px\] {
   max-height: 700px;
 }
@@ -904,6 +896,14 @@ video {
 
 .min-w-\[130px\] {
   min-width: 130px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[330px\] {
+  max-width: 330px;
 }
 
 .flex-shrink {
@@ -1762,12 +1762,12 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
+.rounded-\[28px\] {
+  border-radius: 28px;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-xl {
@@ -1901,6 +1901,11 @@ video {
 
 .border-none {
   border-style: none;
+}
+
+.border-\[\#b6b6b6\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(182 182 182 / var(--tw-border-opacity));
 }
 
 .bg-\[\#4cc353\] {
@@ -3258,31 +3263,9 @@ video {
   text-align: center;
 }
 
-@media not all and (min-width: 1024px) {
-  .max-lg\:h-screen {
-    height: 100vh;
-  }
-
-  .max-lg\:h-\[\] {
-    height: ;
-  }
-
-  .max-lg\:h-\[7\] {
-    height: 7;
-  }
-
-  .max-lg\:h-\[700px\] {
-    height: 700px;
-  }
-}
-
 @media not all and (min-width: 768px) {
   .max-md\:h-screen {
     height: 100vh;
-  }
-
-  .max-md\:h-\[750px\] {
-    height: 750px;
   }
 
   .max-md\:max-h-\[750px\] {
@@ -3291,8 +3274,8 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
+  .sm\:text-\[20px\] {
+    font-size: 20px;
   }
 
   .sm\:underline {
@@ -3301,26 +3284,12 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:grid {
-    display: grid;
-  }
-
   .md\:hidden {
     display: none;
   }
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:px-7 {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-  }
-
-  .md\:px-9 {
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
   }
 
   .md\:px-16 {
@@ -3330,27 +3299,8 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:hidden {
-    display: none;
-  }
-
   .lg\:justify-around {
     justify-content: space-around;
-  }
-
-  .lg\:px-9 {
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
-  }
-
-  .lg\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 }
 
