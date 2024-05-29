@@ -2176,6 +2176,10 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2265,11 +2269,6 @@ video {
 
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
-}
-
-.text-\[\#4cc353\] {
-  --tw-text-opacity: 1;
-  color: rgb(76 195 83 / var(--tw-text-opacity));
 }
 
 .text-blue-500 {
@@ -3279,6 +3278,18 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-\[\] {
+    width: ;
+  }
+
+  .sm\:w-\[238\] {
+    width: 238;
+  }
+
+  .sm\:w-\[238px\] {
+    width: 238px;
+  }
+
   .sm\:text-\[20px\] {
     font-size: 20px;
   }
