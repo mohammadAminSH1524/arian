@@ -898,10 +898,6 @@ video {
   min-width: 130px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
-
 .max-w-\[330px\] {
   max-width: 330px;
 }
@@ -2271,6 +2267,11 @@ video {
   color: rgb(51 102 153 / .35);
 }
 
+.text-\[\#4cc353\] {
+  --tw-text-opacity: 1;
+  color: rgb(76 195 83 / var(--tw-text-opacity));
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -2279,6 +2280,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
