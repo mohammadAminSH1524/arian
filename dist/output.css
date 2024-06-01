@@ -1938,18 +1938,14 @@ video {
   border-color: rgb(48 56 139 / var(--tw-border-opacity));
 }
 
-.border-\[\#b6b6b6\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(182 182 182 / var(--tw-border-opacity));
-}
-
-.border-\[\] {
-  border-color: ;
-}
-
 .border-\[\#309f29\] {
   --tw-border-opacity: 1;
   border-color: rgb(48 159 41 / var(--tw-border-opacity));
+}
+
+.border-\[\#b6b6b6\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(182 182 182 / var(--tw-border-opacity));
 }
 
 .bg-\[\#4cc353\] {
