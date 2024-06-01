@@ -723,6 +723,21 @@ video {
   clear: none;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -842,6 +857,10 @@ video {
   display: none;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .max-h-\[700px\] {
   max-height: 700px;
 }
@@ -854,16 +873,24 @@ video {
   width: 110px;
 }
 
-.w-\[120px\] {
-  width: 120px;
+.w-\[114px\] {
+  width: 114px;
 }
 
-.w-\[133px\] {
-  width: 133px;
+.w-\[115px\] {
+  width: 115px;
 }
 
-.w-\[215px\] {
-  width: 215px;
+.w-\[140px\] {
+  width: 140px;
+}
+
+.w-\[160px\] {
+  width: 160px;
+}
+
+.w-\[262px\] {
+  width: 262px;
 }
 
 .w-\[48px\] {
@@ -878,10 +905,6 @@ video {
   width: 75px;
 }
 
-.w-\[94px\] {
-  width: 94px;
-}
-
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -894,44 +917,12 @@ video {
   width: weird-and-invalid;
 }
 
-.w-\[140px\] {
-  width: 140px;
+.w-\[\] {
+  width: ;
 }
 
-.w-\[238px\] {
-  width: 238px;
-}
-
-.w-\[245px\] {
-  width: 245px;
-}
-
-.w-\[114px\] {
-  width: 114px;
-}
-
-.w-\[250px\] {
-  width: 250px;
-}
-
-.w-\[2px\] {
-  width: 2px;
-}
-
-.w-\[262px\] {
-  width: 262px;
-}
-
-.w-\[155px\] {
-  width: 155px;
-}
-
-.w-\[115px\] {
-  width: 115px;
-}
-
-.w-\[160px\] {
-  width: 160px;
+.w-\[400px\] {
+  width: 400px;
 }
 
 .min-w-\[130px\] {
@@ -1810,6 +1801,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2211,13 +2206,13 @@ video {
   font-size: 15px;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-\[22px\] {
-  font-size: 22px;
 }
 
 .font-bold {
@@ -2319,10 +2314,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -3318,26 +3309,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:w-\[\] {
-    width: ;
-  }
-
-  .sm\:w-\[238\] {
-    width: 238;
-  }
-
-  .sm\:w-\[238px\] {
-    width: 238px;
-  }
-
-  .sm\:text-\[20px\] {
-    font-size: 20px;
-  }
-
-  .sm\:text-\[22px\] {
-    font-size: 22px;
-  }
-
   .sm\:underline {
     text-decoration-line: underline;
   }
