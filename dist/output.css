@@ -916,12 +916,20 @@ video {
   width: weird-and-invalid;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .min-w-\[130px\] {
   min-width: 130px;
 }
 
 .min-w-\[380px\] {
   min-width: 380px;
+}
+
+.min-w-\[360px\] {
+  min-width: 360px;
 }
 
 .max-w-\[330px\] {
